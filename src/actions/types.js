@@ -1,0 +1,12 @@
+export const GET_PRODUCTS = "GET_PRODUCTS";
+export const GET_PRODUCT = "GET_PRODUCT";
+export const PRODUCTS_ERROR = "PRODUCTS_ERROR";
+export const COLLECTION = "COLLECTION";
+export const CATOGRIE = "CATOGRIE";
+export const TYPE = "TYPE";
+export const COLOR = "COLOR";
+export const FILTER_BY_POPULAR = "FILTER_BY_POPULAR";
+export const FILTER_BY_NEW = "FILTER_BY_NEW";
+export const FILTER_ERROR = "FILTER_ERROR";
+export const FILTER_ALL = "FILTER_ALL";
+export const SIZE = "SIZE";

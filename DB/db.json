@@ -1,0 +1,225 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "basic slim",
+      "description": "description",
+      "discount": 20,
+      "price": 900,
+      "images": ["1.jpg", "2.jpg", "3.jpg"],
+
+      "colors": ["red", "blue"],
+
+      "type": "top",
+      "collection": "summer",
+
+      "sizes": ["xs", "l"],
+      "date": "Mar 12 2020 10:00:00 AM",
+      "catogrie": "men",
+      "soldItems": 20
+    },
+    {
+      "id": 2,
+      "name": "Oxfortd shirt",
+      "description": "description",
+      "images": ["1.jpg", "2.jpg", "3.jpg"],
+
+      "price": 900,
+      "discount": 20,
+      "soldItems": 10,
+
+      "colors": ["red", "blue"],
+
+      "type": "t-shirt",
+
+      "sizes": ["xs", "xl"],
+
+      "date": "Mar 15 2020 10:00:00 AM",
+      "collection": "summer",
+      "catogrie": "men"
+    },
+    {
+      "id": 3,
+      "name": "pattern dress shirt",
+      "description": "description",
+      "soldItems": 30,
+
+      "price": 900,
+      "discount": 20,
+      "type": "t-shirt",
+      "collection": "summer",
+
+      "colors": ["red", "blue"],
+
+      "images": ["1.jpg"],
+      "sizes": ["xs", "xl"],
+
+      "date": "Mar 1 2020 10:00:00 AM",
+      "catogrie": "men"
+    },
+    {
+      "id": 4,
+      "name": "t-shirt 30",
+      "description": "description",
+      "price": 900,
+      "discount": 20,
+      "colors": ["red", "blue"],
+      "soldItems": 0,
+
+      "images": ["1.jpg"],
+      "type": "sweetshirt",
+      "collection": "winter",
+
+      "sizes": ["xs", "s"],
+      "catogrie": "men",
+      "date": "Mar 30 2020 10:00:00 AM"
+    },
+    {
+      "id": 5,
+      "name": "TShirt summer fibers 2",
+      "description": "description",
+
+      "price": 600,
+
+      "colors": ["red", "blue"],
+
+      "images": ["1.jpg"],
+      "type": "sweetshirt",
+      "soldItems": 13,
+
+      "sizes": ["s"],
+      "catogrie": "men",
+      "date": "Mar 2 2020 10:00:00 AM",
+      "collection": "winter"
+    },
+    {
+      "id": 6,
+      "name": "TShirt winter fibers ",
+      "description": "description",
+
+      "price": 350,
+      "soldItems": 5,
+
+      "colors": ["red", "green"],
+      "discount": 20,
+
+      "images": ["1.jpg", "2.jpg", "3.jpg"],
+      "type": "sweetshirt",
+
+      "sizes": ["xl", "xxl", "xxxl"],
+      "catogrie": "men",
+      "collection": "winter",
+      "date": "Mar 2 2020 10:00:00 AM"
+    },
+    {
+      "id": 7,
+      "name": "premim dress shirt",
+      "description": "description",
+      "catogrie": "men",
+      "price": 8000,
+
+      "colors": ["red"],
+      "soldItems": 12,
+
+      "images": ["1.jpg"],
+      "type": "top",
+      "sizes": ["xs", "s", "l"],
+      "date": "Mar 2 2020 10:00:00 AM",
+      "collection": "summer"
+    },
+    {
+      "id": 8,
+      "name": "TShirt summer fibers 2",
+      "description": "description",
+      "discount": 20,
+      "catogrie": "men",
+
+      "price": 1500,
+
+      "colors": ["blue"],
+      "soldItems": 1,
+
+      "images": ["1.jpg"],
+      "type": "t-shirt",
+      "sizes": ["xl", "s", "xxl"],
+
+      "collection": "summer",
+      "date": "Mar 2 2020 10:00:00 AM"
+    },
+    {
+      "id": 9,
+      "name": "premim dress shirt",
+      "description": "description",
+
+      "price": 900,
+      "soldItems": 30,
+
+      "colors": ["red", "blue"],
+
+      "images": ["1.jpg"],
+      "type": "t-shirt",
+
+      "sizes": ["xl", "xxl", "xxxl"],
+      "catogrie": "men",
+
+      "date": "Mar 2 2020 10:00:00 AM",
+      "collection": "summer"
+    },
+    {
+      "id": 10,
+      "name": "premim dress shirt",
+      "description": "description",
+
+      "price": 100,
+      "soldItems": 8,
+
+      "colors": ["blue"],
+
+      "images": ["1.jpg"],
+      "type": "top",
+      "sizes": ["xl", "xxl", "xxxl"],
+      "catogrie": "women",
+
+      "date": "Mar 2 2020 10:00:00 AM",
+      "collection": "summer"
+    },
+    {
+      "id": 11,
+      "name": "premim dress shirt",
+      "description": "description",
+      "soldItems": 7,
+
+      "price": 200,
+
+      "colors": ["red"],
+
+      "images": ["1.jpg"],
+      "type": "t-shirt",
+      "sizes": ["xl", "xxl", "xxxl"],
+      "catogrie": "women",
+
+      "date": "Mar 2 2020 10:00:00 AM",
+      "collection": "summer"
+    }
+  ],
+  "types": [
+    { "id": 1, "name": "T-Shirt" },
+    { "id": 2, "name": "SweetShirt" },
+    { "id": 3, "name": "SweetPants" },
+    { "id": 4, "name": "T-Shirt2" }
+  ],
+  "catogries": [
+    { "id": 1, "name": "men" },
+    { "id": 2, "name": "women" },
+    { "id": 3, "name": "children" }
+  ],
+  "sizes": [
+    { "id": 1, "name": "xs" },
+    { "id": 2, "name": "s" },
+
+    { "id": 3, "name": "l" },
+
+    { "id": 4, "name": "xl" },
+    { "id": 5, "name": "xxl" }
+  ]
+}

@@ -200,6 +200,81 @@
 
       "date": "Mar 2 2020 10:00:00 AM",
       "collection": "summer"
+    },
+    {
+      "id": 12,
+      "name": "basic slim",
+      "description": "description",
+      "discount": 20,
+      "price": 900,
+      "images": ["1.jpg", "2.jpg", "3.jpg"],
+
+      "colors": ["red", "blue"],
+
+      "type": "top",
+      "collection": "summer",
+
+      "sizes": ["xs", "l"],
+      "date": "Mar 12 2020 10:00:00 AM",
+      "catogrie": "men",
+      "soldItems": 20
+    },
+
+    {
+      "id": 13,
+      "name": "pattern dress shirt",
+      "description": "description",
+      "soldItems": 30,
+
+      "price": 900,
+      "discount": 20,
+      "type": "t-shirt",
+      "collection": "summer",
+
+      "colors": ["red", "blue"],
+
+      "images": ["2.jpg", "1.jpg"],
+      "sizes": ["xs", "xl"],
+
+      "date": "Mar 1 2020 10:00:00 AM",
+      "catogrie": "men"
+    },
+    {
+      "id": 14,
+      "name": "t-shirt 30",
+      "description": "description",
+      "price": 900,
+      "discount": 20,
+      "colors": ["red", "blue"],
+      "soldItems": 0,
+
+      "images": ["3.jpg", "1.jpg"],
+      "type": "sweetshirt",
+      "collection": "winter",
+
+      "sizes": ["xs", "s"],
+      "catogrie": "men",
+      "date": "Mar 30 2020 10:00:00 AM"
+    },
+    {
+      "id": 15,
+      "name": "Oxfortd shirt",
+      "description": "description",
+      "images": ["1.jpg", "2.jpg", "3.jpg"],
+
+      "price": 2000,
+      "discount": 80,
+      "soldItems": 18,
+
+      "colors": ["red", "green", "blue"],
+
+      "type": "t-shirt",
+
+      "sizes": ["xs", "l", "xl"],
+
+      "date": "Mar 1 2020 10:00:00 AM",
+      "collection": "summer",
+      "catogrie": "men"
     }
   ],
   "types": [

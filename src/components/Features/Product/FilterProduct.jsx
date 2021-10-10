@@ -66,9 +66,9 @@ const FilterProducts = ({ filterAll, catogrieId, products, sort, productsPerPage
                         <div className="icon"><i className="fas fa-chevron-up"></i></div>
                     </div>
                     <div className="filter-body row">
-                        <input type="number" name="" min="0" placeholder="minprice" value={min} onChange={(e) => setMin(e.target.value)} />
-
-                        <input type="number" min="0" name="" placeholder="maxprice" value={max} onChange={(e) => setMax((e.target.value))} />
+                        <input type="number" name="" min="0" max="1000" placeholder="minprice" value={min} onChange={(e) => setMin(e.target.value)} />
+                        <span>-</span>
+                        <input type="number" min="0" max="1000" name="" placeholder="maxprice" value={max} onChange={(e) => setMax((e.target.value))} />
                     </div>
                 </div>
                 <div className="product-collection">

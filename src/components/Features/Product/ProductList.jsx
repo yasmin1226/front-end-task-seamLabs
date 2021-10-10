@@ -10,7 +10,7 @@ import CurrentProducts from './CurrentProducts';
 const ProductList = ({ getProducts, handleSort, filterdProducts, products, sortx }) => {
     const { id } = useParams();
     const [sort, setSort] = useState("popular");
-    const [productsPerPage, setProductsPerPage] = useState(4)
+    const [productsPerPage, setProductsPerPage] = useState(6)
 
     const [currentPage, setCurrentPage] = useState(1);
 
@@ -45,7 +45,7 @@ const ProductList = ({ getProducts, handleSort, filterdProducts, products, sortx
                                 <p>Mens Tops <span className="light-color">({filterdProducts?.length})</span></p>
                             </div>
                             <div className="item">
-                                <h3>show products :</h3>
+                                <h5>show products:</h5>
                                 <select name="" id="" value={productsPerPage} onChange={(e) => {
                                     setProductsPerPage(e.target.value)
                                     // setCurrentPage(1)
@@ -56,7 +56,7 @@ const ProductList = ({ getProducts, handleSort, filterdProducts, products, sortx
                                 </select>
                             </div>
                             <div className="item">
-                                <h3>Sort :</h3>
+                                <h5>Sort:</h5>
                                 <select name="" id="" value={sort} onChange={(e) => handleSortFn(e, filterdProducts)}>
 
                                     <option value="popular">popular</option>

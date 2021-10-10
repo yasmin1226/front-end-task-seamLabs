@@ -159,6 +159,29 @@ header .header-content .icons div i {
   display: flex;
   flex-wrap: wrap;
 }
+
+#main-section
+  .main-section-content
+  .filters
+  .filter
+  > div.product-price
+  .filter-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#main-section
+  .main-section-content
+  .filters
+  .filter
+  > div.product-price
+  .filter-body
+  input {
+  padding: 0.4rem 1rem;
+  display: inline-block;
+  width: 88px;
+}
 #main-section
   .main-section-content
   .filters
@@ -365,13 +388,15 @@ header .header-content .icons div i {
   margin: 1rem;
   flex: 1;
   display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }
 #main-section .main-section-content .products .products-head .item:first-child {
   flex: 2;
 }
 
 #main-section .main-section-content .products .products-head .item select {
-  padding: 0.5rem;
+  padding: 0.15rem;
   border: 1px solid rgba(224, 221, 221, 0.836);
   border-radius: 50px;
 }

@@ -27,7 +27,7 @@ const Product = (state = initialState, action) => {
         products: [...payload],
         filterdProducts: [...payload],
         paginate: {
-          productsPerPage: 4,
+          productsPerPage: 6,
           totalProducts: payload?.length,
           currentPage: 1,
           currentProducts: [...payload],

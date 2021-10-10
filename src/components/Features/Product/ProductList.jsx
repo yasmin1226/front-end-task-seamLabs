@@ -10,7 +10,7 @@ import CurrentProducts from './CurrentProducts';
 const ProductList = ({ getProducts, handleSort, filterdProducts, products, sortx }) => {
     const { id } = useParams();
     const [sort, setSort] = useState("popular");
-    const [productsPerPage, setProductsPerPage] = useState(2)
+    const [productsPerPage, setProductsPerPage] = useState(4)
 
     const [currentPage, setCurrentPage] = useState(1);
 
@@ -50,7 +50,6 @@ const ProductList = ({ getProducts, handleSort, filterdProducts, products, sortx
                                     setProductsPerPage(e.target.value)
                                     // setCurrentPage(1)
                                 }}>
-                                    <option value="2">2</option>
                                     <option value="4">4</option>
                                     <option value="6">6</option>
                                     <option value="8">8</option>

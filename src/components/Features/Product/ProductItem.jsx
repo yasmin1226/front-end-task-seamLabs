@@ -5,21 +5,21 @@ const ProductItem = ({ product }) => {
         <>
             <div className="grid-item">
                 <div className="img-container">
+                    <div className="wish-container">
+                        <i className="far fa-heart"></i>
+                    </div>
                     <img
                         src={`images/${product?.images[0]}`}
                         alt=""
                     />
-                    <div className="wish-container">
-                        <i className="far fa-heart"></i>
-                    </div>
                 </div>
                 <div className="content">
                     <h3 className="light-gray"> <Link to={`/products/${product.id}`}>{product?.name}</Link></h3>
-                    {product?.discount && <span className="del"> {product?.price} $ </span>}
 
-                    <span className="light-color"> $
+                    <span className={product?.discount ? "hot-sale" : ""}> $
                         {product?.discount ? (product?.price - product?.discount) : product?.price}
                     </span>
+                    {product?.discount && <span className="del"> {product?.price} $ </span>}
                 </div>
             </div>
         </>

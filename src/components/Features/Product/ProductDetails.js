@@ -4,6 +4,7 @@ import { connect } from "react-redux";
 import { useParams } from "react-router-dom";
 import { getProduct } from "../../../actions/products";
 import Description from "../../description";
+import SelectedForYou from "../../selectedForYou";
 import Slider from "./slider";
 const ProductDetails = ({ product, getProduct }) => {
   const { id } = useParams();
@@ -85,20 +86,13 @@ const ProductDetails = ({ product, getProduct }) => {
               </div>
               <div className="color">
                 <h3>Color:</h3>
-                {/* <div className="colors">
-                  <div>
-                    <span style={"background-color: red"}></span>
-                  </div>
-                  <div>
-                    <span style={"background-color: red"}></span>
-                  </div>
-                  <div>
-                    <span style={"background-color: red"}></span>
-                  </div>
-                  <div>
-                    <span style={"background-color: red"}></span>
-                  </div>
-                </div> */}
+                <div className="colors">
+                  {product?.colors?.map((c, i) => (
+                    <div key={i}>
+                      <span style={{ backgroundColor: c }}></span>
+                    </div>
+                  ))}
+                </div>
               </div>
               <div className="size">
                 <div>
@@ -144,6 +138,7 @@ const ProductDetails = ({ product, getProduct }) => {
         </div>
       </section>
       <Description />
+      <SelectedForYou />
     </>
   );
 };

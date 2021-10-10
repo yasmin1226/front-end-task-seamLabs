@@ -27,7 +27,7 @@ const Product = (state = initialState, action) => {
         products: [...payload],
         filterdProducts: [...payload],
         paginate: {
-          productsPerPage: 2,
+          productsPerPage: 4,
           totalProducts: payload?.length,
           currentPage: 1,
           currentProducts: [...payload],
@@ -38,12 +38,6 @@ const Product = (state = initialState, action) => {
       return {
         ...state,
         product: payload,
-        // paginate: {
-        //   productPerPage: 2,
-        //   totalProducts: payload?.length,
-        //   currentPage: 1,
-        //   currentProducts: [...payload],
-        // },
       };
 
     case FILTER_BY_NEW:
@@ -57,16 +51,7 @@ const Product = (state = initialState, action) => {
         ...state,
         filterdProducts: payload,
       };
-    // productsPerPage,
-    //     totalProducts,
 
-    //     currentPage,
-
-    // productPerPage:pPerPage,
-    // totalProducts: products.length,
-
-    // currentPage: currentPage,
-    // currentProducts: currentProducts,
     case FILTER_ALL:
       return {
         ...state,
